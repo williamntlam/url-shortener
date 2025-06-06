@@ -15,7 +15,6 @@
 - First, check Redis for the `short_code`.
 - If not cached, fetch from MongoDB.
 - Store it in Redis for future use.
-- Redirect the client to the original URL using a 302/301 response.
 
 ---
 
