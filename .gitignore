@@ -2,3 +2,4 @@ venv/
 .env
 backend/.env
 frontend/.env
+minikube-linux-amd64
