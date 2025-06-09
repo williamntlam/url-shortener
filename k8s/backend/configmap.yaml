@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: backend-config
+  namespace: backend
+data:
+  NODE_ENV: "production"
+  PORT: "3000"
+  DATABASE_URL: "postgresql://postgres:$(POSTGRES_PASSWORD)@postgres.postgres.svc.cluster.local:5432/url_shortener"
+  REDIS_URL: "redis://redis.redis.svc.cluster.local:6379"
+  KGS_URL: "http://kgs.kgs.svc.cluster.local:3001"
+  # Add any other non-sensitive configuration here 

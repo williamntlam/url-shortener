@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: kgs-config
+  namespace: kgs
+data:
+  NODE_ENV: "production"
+  PORT: "3001"
+  REDIS_URL: "redis://redis.redis.svc.cluster.local:6379"
+  # Add any other non-sensitive configuration here 

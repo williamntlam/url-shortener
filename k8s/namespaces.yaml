@@ -10,4 +10,25 @@ kind: Namespace
 metadata:
   name: redis
   labels:
-    name: redis 
+    name: redis
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: frontend
+  labels:
+    name: frontend
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: backend
+  labels:
+    name: backend
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: kgs
+  labels:
+    name: kgs 
