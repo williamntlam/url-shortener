@@ -24,4 +24,11 @@ kind: Namespace
 metadata:
   name: backend
   labels:
-    name: backend 
+    name: backend
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: kgs
+  labels:
+    name: kgs 
