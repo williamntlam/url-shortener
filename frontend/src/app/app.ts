@@ -8,7 +8,7 @@ import { Home } from './components/pages/home/home';
   selector: 'app-root',
   imports: [RouterOutlet, Header, Footer, Home],
   templateUrl: './app.html',
-  styleUrl: './app.css'
+  styleUrl: './app.css',
 })
 export class App {
   protected title = 'frontend';
